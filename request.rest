@@ -1,0 +1,52 @@
+### Test
+GET http://localhost:3003/products
+
+### Inserir dados do client
+POST http://localhost:3003/client/register
+Content-Type: application/json
+
+{
+    "name": "Vander",
+    "deliveryDate": "2022/12/20"   
+}
+
+### Pegar Lista de compras
+get http://localhost:3003/client/show-order/001
+Content-Type: application/json
+
+### Criar Lista de compras
+POST http://localhost:3003/client/order-purchase/001
+Content-Type: application/json
+
+{    
+    "listPurchase": [
+        {
+            "name": "TOALHA DE PAPEL SCOTT DURAMAX C/ 1UN",
+            "quantity": 1
+        },
+        {
+            "name": "BEBIDA À BASE DE SOJA ADES LARANJA ZERO 1L",
+            "quantity": 1
+        }
+    ]
+}
+
+### Deletar produtos
+DELETE  http://localhost:3003/client/product/delete/001
+Content-Type: application/json
+
+{    
+   "idProduct": 36,
+   "quantity": 1
+}
+
+### Deletar produtos
+DELETE  http://localhost:3003/client/products/delete/001
+Content-Type: application/json
+
+{    
+   "productName": "BEBIDA À BASE DE SOJA ADES LARANJA ZERO 1L"
+}
+
+
+
