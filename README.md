@@ -32,8 +32,7 @@ estoque.
 9- O sistema também deve ter uma função para mostrar o estoque atual exibindo: Nome do 
 produto e a quantidade em estoque.
 
-## 📋 Funcionalidades
-No front-end o cliente cria um pequenocadastro com o nome e data de entrega, onde é gerado um id que é salvo no local storage.
+No front-end o cliente cria um pequeno cadastro com o nome e data de entrega, onde é gerado um id que é salvo no local storage.
 - Após o cadastro ele é direcionado para página de compras onde pode adicionar o produto que deseja quantas vezes quiser, dependendo da quantidade em estoque.
 É possível visualizar os produtos adicionados ao carrinho com os preços de total da compra, também excluir algum produto em que adicionou demais ou erradamente. O aplicativo pode ser acessado pelo link:
 http://ec2-44-210-91-174.compute-1.amazonaws.com:3000
