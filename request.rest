@@ -2,7 +2,7 @@
 GET http://localhost:3003/products
 
 ### Inserir dados do client
-POST http://localhost:3003/client/register
+POST http://ec2-44-210-91-174.compute-1.amazonaws.com:3003/client/register
 Content-Type: application/json
 
 {
